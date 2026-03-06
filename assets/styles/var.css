@@ -1,0 +1,12 @@
+:root {
+    --primary-font: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+    --secondary-font: "Shadows Into Light", Arial, Helvetica, sans-serif;
+    --white: #fff;
+	--pale-grey: #fafafa;
+	--dark: #072125;
+	--dark-green: #20484f;
+	--light-green: #b8e4da;
+	--primary-light: #dcf2ed;
+	--border: rgba(32, 72, 79, 0.1);
+	--border-hover: rgba(32, 72, 79, 0.2);
+}
