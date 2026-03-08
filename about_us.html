@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <title>Quickly.</title>
 </head>
 <body>
-    <div>header</div>
-    <h1>About page</h1>
+    <header class="header" id="header">
+      <div class="header_container flex">
+        <a href="index.html" class="header_logo">Quickly.</a>
+        <nav class="header_nav">
+          <ul class="header_menu flex">
+            <li class="header_link"><a href="./about_us.html">About us</a></li>
+            <li class="header_link"><a href="#">Products</a></li>
+            <li class="header_link"><a href="./feature.html">Features</a></li>
+            <li class="header_link"><a href="#">Our Blog</a></li>
+            <li class="header_link"><a href="./pricing.html">Pricing</a></li>
+          </ul>
+        </nav>
+        <div>
+            <button class="header_signup_btn">Sign up</button>
+            <button class="header_login_btn">Log In</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero_content">
+                    <h1 class="second_title">We wanted to build a <span class="underline">company</span> that you will love to work with and connect to</h1>
+                    <p class="hero_desc">We’re doing things bigly, I mean really quite big. The way we operate is different from other companies because we disrupt. We break the code, we crack the code as well. </p>
+                </div>
+                <img class="hero_img" src="./assets/images/hero_image.webp" alt="image oh girl with laptop in cafe">
+            </div>
+        </section>
+
+    </main>
+
 </body>
 </html>
