@@ -1,6 +1,11 @@
 @import url("./reset.css");
 @import url("./font.css");
 @import url("./var.css");
-@import url("./style.css");
+@import url("./scc/main.css");
+@import url("./scc/home.css");
+@import url("./scc/about_us.css");
+@import url("./scc/pricing.css");
+@import url("./scc/feature.css");
+@import url("./scc/modals.css");
 @import url("./media.css");
 
