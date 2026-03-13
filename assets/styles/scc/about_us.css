@@ -1,4 +1,3 @@
-
 /* ABOUT__US */
 
 .hero {
@@ -24,7 +23,7 @@
     bottom: -30px;
     width: 202px;
     height: 63px;
-    background: url('.////');
+    background-image: url('../../media/underline_text.svg');
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
@@ -59,7 +58,7 @@
     width: 100%;
     height: 107px;
     background: var(--pale-grey);
-    background-image: url('../images/hero_divider.svg');
+    background-image: url('../../media/hero_divider.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
