@@ -309,7 +309,7 @@
 
 .advantages_post {
     padding-top: 120px;
-    padding-bottom: 110px;
+    margin-bottom: 110px;
 }
 
 
@@ -388,4 +388,98 @@
     background: var(--primary-light);
 }
 
+.wave_divider img{
+    width: 100%;
+    height: 107px;
+    display: block;
+}
+
 /* ADVANTAGES */
+
+
+/* PROJECT */
+/* .features__grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative; Важно для позиционирования линий
+}
+
+.feature-card {
+  flex: 1;
+  text-align: center;
+}
+
+.feature-card__image-wrapper {
+  background-color: #1a3c3a; Темно-зеленый круг
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  padding: 30px;
+}
+
+.features__grid {
+  background-image: url('curvy-lines.svg');
+  background-repeat: no-repeat;
+  background-position: center top 20%;
+  background-size: 80% auto;
+} */
+
+.project_overview {
+    border-radius: 9px;
+    width: 222px;
+    height: 302px;
+    box-shadow: 0 3px 31px 0 rgba(138, 138, 138, 0.04);
+    background: red;
+}
+.project_overview_title {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-green);
+}
+
+.project_overview_desc {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--dark-green);
+}
+.overview_line {
+    border-radius: 9px;
+    
+    height: 8px;
+    background: var(--border);
+}
+
+.short {
+    width: 121px;
+}
+
+.long {
+    width: 141px;
+}
+
+.check-list {
+    align-items: center;
+}
+
+.step {
+    width: 62px;
+}
+
+.step_long {
+    width: 103px;
+}
+.overview_btn {
+    border-radius: 6px;
+    width: 178px;
+    height: 28px;
+    background: var(--light-green);
+}
+
+/* PROJECT */
