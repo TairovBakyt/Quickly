@@ -1,0 +1,336 @@
+
+/* PRICIN */
+
+/* hero */
+  .pricing__hero{
+    padding: 120px 0 150px 0;
+   background-color: rgb(249, 246, 246); 
+  }
+  
+  .pricing__hero__title{
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--dark);
+  }
+
+  .pricing__hero__desc{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--dark-green);
+  }
+/* hero */
+
+/* Cards */
+ .pricing__cards{
+    background-color: var( --white #fff);
+ }
+ .pricing__cards__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--dark);
+ }
+ .pricing__cards__desc{
+    max-width: 490px;
+    margin: 20px 0 70px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark-green);
+ }
+ .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ .card{
+    border: 1px solid var(--border-hover);
+    border-radius: 8px;
+    width: 285px;
+    height: 700px;
+ }
+ .container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+ }
+ .card__name{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--primary-green);
+ }
+ .card__price{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--dark-green);
+    animation: pulse 2s infinite ease-in-out;
+ }
+ @keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    0%{
+        transform: scale(0,2);
+    }
+    100% {
+        transform: scale(1);
+
+    }
+    
+}
+ 
+ .card__subtitle{
+    margin: 20px 0 20px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--dark-green);
+ }
+ .card__btn{
+    border-radius: 8px;
+    padding: 16px 36px 15px;
+    width: 229px;
+    background: var(--dark-green);
+    height: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .card__btn:hover{
+  background-color: var(--white);
+  color: var(--dark-green);
+ }
+  .popular{
+    position: relative;
+  }
+  .card__price__btn{
+    position: absolute;
+    top: -12px;
+    left: 45%;
+    border-radius: 8px;
+    padding: 3px 12px;
+    width: 65px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    color: var(--white);
+    background: var(--dark);
+    color: #fff;
+}
+ .card__list{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+    padding-left: 60px;
+ }
+ .list__item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark);
+ }
+ .list__item::before{
+    content: "\2713";
+    position: absolute;
+    left: 30px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background: var(--primary-green);
+    color: black;
+    font-size: 8px;
+    border-radius: 6px;  
+
+ }
+ 
+ .dark{
+    background: var(--dark-green);
+ }
+ .dark h4{
+    color: var(--primary-green);
+ }
+ .dark h3{
+    color: var(--white);
+ }
+ .dark p {
+    color: var(--white);
+ }
+ .dark button{
+    background: var(--primary-green);
+    color: var(--dark);
+}
+.dark li{
+  color: var(--white);
+}
+
+
+/* Cards */
+
+/* features */
+.features{
+    background: rgb(249, 246, 246);
+    padding: 120px ;
+}
+.features__subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-green);
+}
+.features__title{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--dark);
+}
+
+
+.features__columns{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.features__category{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 1256px;
+    margin-bottom: 20px;
+}
+.category__plan{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-green);
+}
+.features__row__name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark-green);
+}
+
+.features__row{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 1256px;
+    height: 40px;
+    /* padding: 16px 0; */
+    border-radius: 3px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.features__row:hover{
+   background-color: var(--white);
+}
+
+
+ .features__row__check{
+    display: flex;
+
+ }
+ .features__row__check::after{
+    content: "\2713";
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: var(--light-green);
+    color: black;
+    font-size: 8px;
+    border-radius: 50px;
+ }
+ 
+
+
+ .features__buttons{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .btn__dark:hover{
+    background-color: var(--white);
+    color: var(--dark-green);
+ }
+ .btn__light:hover{
+    background-color: var(--dark-green);
+    color: var(--white);
+ }
+ .btn__light{
+   background-color: var(--white);
+   color: var(--dark-green);
+ }
+ .btn__dark{
+    background: var(--dark-green);
+    color: var(--white);
+ }
+
+ .features__buttons button{
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    width: 171px;
+    height: 41px;
+       font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    }
+/* features */
+
+/* cta */
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+    background: var(--white);
+}
+.cta__subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--dark-green);
+}
+.cta__title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 750px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: var(--dark);
+}
+.cta__button{
+    border-radius: 8px;
+    padding: 16px 36px 15px;
+    width: 190px;
+    height: 58px;
+    background: var(--dark-green);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cta__button:hover{
+    background-color: var(--white);
+    color: var(--dark-green);
+}
+
+/* cta */
+
+/* PRICIN */
