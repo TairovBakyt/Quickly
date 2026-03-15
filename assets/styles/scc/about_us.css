@@ -1,7 +1,30 @@
+.edge-divider {
+    position: relative;
+    padding-bottom: 26px;
+    
+}
+.edge-divider::after {
+    content: "";
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: 107px;
+    background-image: url('../../media/hero_divider.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+
 /* ABOUT__US */
 
+
+/* HERO */
 .hero {
-    min-height: 70vh;
     background: var(--pale-grey);
 }
 .hero .container {
@@ -11,6 +34,7 @@
     gap: 120px;
     padding-top:60px;
 }
+
 .underline {
     position: relative;
     z-index: 1;
@@ -28,9 +52,7 @@
     background-repeat: no-repeat;
     z-index: -1;
 }
-/* .hero_text {
-    max-width: 520px;
-} */
+
 .hero_desc {
     font-family: var(--primary-font);
     font-weight: 400;
@@ -44,28 +66,12 @@
     width: 385px;
     height: 415px;
 }
+/* HERO */
 
 
-.divider_img {
-    position: relative;
-    margin-top: 87px;
-}
-.divider_img::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -20px;
-    width: 100%;
-    height: 107px;
-    background: var(--pale-grey);
-    background-image: url('../../media/hero_divider.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
+/* STATS */
 .stats {
-    padding: 90px 0 75px;
+    padding: 75px 0;
 }
 .stats_content {
     display: flex;
@@ -132,10 +138,12 @@
     line-height: 150%;
     color: var(--dark);
 }
+/* STATS */
 
 
+/* HEADING */
 .heading {
-    padding: 89px 0 85px ;
+    padding: 89px auto ;
 }
 .heading_subject {
     display: flex;
@@ -164,12 +172,15 @@
     font-size: 18px;
     line-height: 150%;
     color: var(--dark);
-    margin-bottom:20px;
 }
 .text_right p:last-child {
     margin-bottom: 0;
 }
 
+/* HEADING */
+
+
+/* MOOD */
 .mood_gallery {
     text-align: center;
 }
@@ -189,49 +200,50 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
-}
-.gallery {
-    border-radius: 12px;
+    margin-bottom: 100px;
 }
 .img-1 {
     border-radius: 12px;
-    width: 305px;
-    height: 268px;
     transform: rotate(-13deg) ;
 }
 .img-2 {
     border-radius: 12px;
-    width: 285px;
-    height: 369px;
     transform: rotate(5deg) translateY(176px);
 }
 .img-3 {
     border-radius: 12px;
-    width: 285px;
-    height: 295px;
     transform: rotate(-8deg) translateY(28px);
 }
 .img-4 {
     border-radius: 12px;
-    width: 285px;
-    height: 329px;
     transform: rotate(10deg) translateY(174px);
 }
 
-.divider_img2{
-    position: relative;
-    margin-top:170px;
-}
-.divider_img2::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    transform: rotate(-180deg);
+/* MOOD */
+
+
+
+/* TEAM */
+.divider {
+    margin-top: 170px;
     width: 100%;
     height: 107px;
     background: var(--pale-grey);
-    background-image: url('../../media/hero_divider.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    transform: rotate(-180deg);
+    transform: translateY(-100%)
 }
+
+
+/* TEAM */
+
+
+
+
+
+
+
+
+
+
+
 /* ABOUT__US */
