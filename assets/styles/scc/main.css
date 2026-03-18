@@ -12,6 +12,11 @@
     display: flex;
 }
 
+.wave_divider img{
+    width: 100%;
+    height: 107px;
+    display: block;
+}
 
 .grid{
     display: grid;
@@ -115,7 +120,7 @@
 
 
 
-.header _login_btn:hover{
+.header_login_btn:hover{
     transform: scale(1.1);
     color: greenyellow;
 }

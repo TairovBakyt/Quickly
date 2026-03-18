@@ -69,9 +69,7 @@
     height: 58px;
     background: var(--dark-green);
 }
-.hero_signup_btn:hover {
 
-}
 .hero_learnmore_btn {
     font-family: var(--primary-font);
     font-weight: 400;
@@ -407,6 +405,7 @@
 /* PROJECT */
 
 .project__title {
+    padding-top: 100px;
     margin-bottom: 74px;
     text-align: center;
     font-family: var(--primary-font);

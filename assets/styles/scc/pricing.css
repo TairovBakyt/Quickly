@@ -3,11 +3,12 @@
 
 /* hero */
   .pricing__hero{
-    padding: 120px 0 150px 0;
+    padding: 120px 0 0px 0;
    background-color: rgb(249, 246, 246); 
   }
   
   .pricing__hero__title{
+   margin-bottom: 55px;
     font-weight: 700;
     font-size: 64px;
     margin-top: 15px;
@@ -22,6 +23,8 @@
     text-align: center;
     color: var(--dark-green);
   }
+
+
 /* hero */
 
 /* Cards */
@@ -29,6 +32,7 @@
     background-color: var( --white #fff);
  }
  .pricing__cards__title{
+   padding-top: 80px;
     font-weight: 700;
     font-size: 40px;
     color: var(--dark);
@@ -42,6 +46,7 @@
     color: var(--dark-green);
  }
  .cards{
+   margin-bottom: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
  }
@@ -180,9 +185,10 @@
 /* features */
 .features{
     background: rgb(249, 246, 246);
-    padding: 120px ;
+    padding: 0px ;
 }
 .features__subtitle{
+   padding-top: 100px;
     font-weight: 700;
     font-size: 18px;
     color: var(--dark-green);
@@ -255,6 +261,7 @@
 
 
  .features__buttons{
+   margin-bottom: 100px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     margin-top: 30px;
@@ -300,6 +307,7 @@
     background: var(--white);
 }
 .cta__subtitle{
+   padding-top: 68px;
     font-weight: 700;
     font-size: 18px;
     color: var(--dark-green);
