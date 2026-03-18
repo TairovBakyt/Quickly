@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quickly</title>
     <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/scc/home.css">
+    <link rel="stylesheet" href="./assets/styles/media_home.css">
 </head>
 <body>
     <header class="header" id="header">
       <div class="header_container flex">
-        <a href="#advantages"  class="header_logo">Quickly.</a>
+        <a href="#trial"  class="header_logo">Quickly.</a>
         <nav class="header_nav">
           <ul class="header_menu flex">
             <li class="header_link"><a href="./about_us.html" >About us</a></li>
@@ -29,14 +31,14 @@
 
 <main>
       <section class="hero flex" id="hero">
-      <div class="container flex">
+      <div class="flex">
         <div class="hero_content ">
         <p class="hero_new-way">The new way to work online</p>
         <h1 class="hero_title first_title">Get the important work done <span class="span_line">faster</span></h1>
         <p class="hero_desc">With Quickly, you can get more productive work done in far less time than ever before.</p>
         <div class="hero_buttons">
-          <button class="hero_signup_btn">Sign up</button>
-          <button class="hero_learnmore_btn">Learn more</button>
+          <button class="hero_signup_btn"><a href="./sign_up.html">Sign up</a></button>
+          <button class="hero_learnmore_btn"><a href="./sign_in.html">Learn more</a></button>
         </div>
       </div>
 
@@ -256,23 +258,27 @@
 </div>
       </section>
 
-    <section class="project">
-      <div class="container">
-           <h2 class="project__title">How Quickly helps you get more done</h2>
-  
-  <div class="project__grid">
-    <div class="project-card">
+<section class="project">
+<div class="container">
+  <h4 class="project__title">How Quickly helps you get more done</h4>
+
+  <div class="all_project flex">
+        <div class="card_collumn" >
+          <svg width="357" class="project_collumn" height="380" viewBox="0 0 357 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.15527e-05 196.767C13.902 383.961 135.635 381.571 210.021 378.212C349.021 371.934 362.925 266.277 354.534 150.508C347.656 55.6202 310.79 8.05189 200.033 0.899975C19.0207 -10.7886 9.15527e-05 93.3825 9.15527e-05 196.767Z" fill="#20484F" />
+        </svg>
+       <div class="project-card">
       <div class="project-card__wrapper">
-        <div class="project_overview">
+        <div class="project_overview_first">
           <h4 class="project_overview_title">Project Overview</h4>
           <h5 class="project_overview_desc">Step one</h5>
           <div class="liners">
             <div class="overview_line short"></div>
             <div class="overview_line long"></div>
           </div>
-          <ul class="liner_lists">
+          <ul class="liner_lists flex">
             <li class="check-list flex">
-              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="15" class="berpy" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="7.4" cy="7.4" r="7.4" fill="#DCF2ED"/>
               <g clip-path="url(#clip0_2946_192)">
               <path d="M6.32874 8.8885L4.83997 7.39974L4.33301 7.90314L6.32874 9.89886L10.6129 5.61465L10.1096 5.11126L6.32874 8.8885Z" fill="#20484F"/>
@@ -286,7 +292,7 @@
               <div class="overview_line step"></div>
               </li>
             <li class="check-list flex">
-              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="15" class="berpy" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="7.4" cy="7.4" r="7.4" fill="#DCF2ED"/>
               <g clip-path="url(#clip0_2946_192)">
               <path d="M6.32874 8.8885L4.83997 7.39974L4.33301 7.90314L6.32874 9.89886L10.6129 5.61465L10.1096 5.11126L6.32874 8.8885Z" fill="#20484F"/>
@@ -300,7 +306,7 @@
               <div class="overview_line step"></div>
               </li>
             <li class="check-list flex">
-              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="15" class="berpy" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="7.4" cy="7.4" r="7.4" fill="#DCF2ED"/>
               <g clip-path="url(#clip0_2946_192)">
               <path d="M6.32874 8.8885L4.83997 7.39974L4.33301 7.90314L6.32874 9.89886L10.6129 5.61465L10.1096 5.11126L6.32874 8.8885Z" fill="#20484F"/>
@@ -317,34 +323,264 @@
           <button class="overview_btn"></button>
         </div>
       </div>
+    </div>
+    <div class="title_text">
       <h3 class="project-card__title">Quick Project Creation</h3>
-      <p class="project-card__text">Your new projects are simply a click away
-with our intuitive creation flow</p>
+      <p class="project-card__text">Your new projects are simply a click away with our intuitive creation flow</p>
+    </div>
+    
     </div>
 
-    <!-- <div class="project-card">
-      <div class="project-card__wrapper">
-        <img src="card2.png" alt="Project Updated">
+
+    <div class="update_collumn">
+      <svg width="344" class="project_collumn" height="360" viewBox="0 0 344 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M-1.49947e-05 181.856C5.5292 37.3633 56.9489 8.96234 154.813 1.26029C354.963 -14.4919 353.857 120.642 337.271 226.395C323.891 311.696 278.848 359.417 180.19 359.417C37.4926 359.417 -2.25212e-05 267.949 -1.49947e-05 181.856Z" fill="#20484F" />
+    </svg>
+      <div class="project_update flex">
+        <div class="checked-list">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_2983_144)">
+            <path d="M10.7588 19.3288L5.77428 14.3442L4.0769 16.0296L10.7588 22.7116L25.1028 8.36755L23.4174 6.68213L10.7588 19.3288Z" fill="#20484F" />
+          </g>
+          <defs>
+            <clipPath id="clip0_2983_144">
+              <rect width="28.688" height="28.688" fill="white" />
+            </clipPath>
+          </defs>
+            </svg>
+        </div>
+        <div class="overview_update">
+          <h4 class="project_overview_title project_overview_title_second">Project Updated</h4>
+          <div class="overview_line update_long"></div>
+          <div class="overview_line update_short"></div>
+        </div>
       </div>
-      <h3 class="project-card__title">Effortless Collaboration</h3>
-      <p class="project-card__text">Need to assign a designer to your new
-project, that’s easy with quickly</p>
+      <div class="title_text">
+        <h3 class="project-card__title">Effortless Collaboration</h3>
+      <p class="project-card__text">Need to assign a designer to your new project, that’s easy with quickly</p>
+      </div>
+      
+    </div>
+      
+
+
+   <div class="master_collumn">
+      <svg width="346" class="project_collumn" height="380" viewBox="0 0 346 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M346 190.012C333.264 371.611 278.53 385.321 157.685 378.768C33.5154 372.034 0 267.84 0 138.127C0 37.833 61.5287 0 162.74 0C263.952 0 346 89.7183 346 190.012Z" fill="#20484F" />
+  </svg>
+    <div class="project-master"> 
+          <div class="master_view ">
+            <img src="./assets/media/avatar.webp" alt="women">
+          </div>
+          <h4 class="project_master_name">Anneta Wilson</h4>
+          <p class="project_master_desc">Product Manager</p>
+          <div class="master">
+            <div class="master_long"></div>
+            <div class="master_short"></div>
+          </div>
+          
     </div>
 
-    <div class="project-card">
-      <div class="project-card__wrapper">
-        <img src="card3.png" alt="Advanced Tracking">
-      </div>
-      <h3 class="project-card__title">Advanced Tracking</h3>
+      <div class="title_text">
+        <h3 class="project-card__title">Advanced Tracking</h3>
       <p class="project-card__text">Track project progress with swim lanes, 
-road maps and other tools</p> -->
-    </div>
-  </div>
+road maps and other tools</p>
       </div>
   
+   </div>
+
+   <div class="dotted_line">
+    <svg width="797" height="190" viewBox="0 0 797 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.12805 57.0302C65.7947 12.8635 232.928 -46.4698 384.128 69.5302C573.128 214.53 655.628 205.03 795.628 151.03" stroke="#20484F" stroke-width="4" stroke-dasharray="3 3" />
+  </svg>
+   </div>
+  </div>
+
+
+   
+
+    
+
+
+</div>
 </section>
 
 
+  <section class="highly">
+    <div class="container">
+      <h2 class="highly_title">What Quickly can do for you</h2>
+      <p class="highly_desc">We’re more than just anothe project management software.</p>
+      <div class="highly_cards grid">
+        <div class="highly_card">
+          <div class="hour">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_2983_27)">
+              <path d="M22 5.71986L17.4 1.85986L16.11 3.38986L20.71 7.24986L22 5.71986ZM7.88 3.38986L6.6 1.85986L2 5.70986L3.29 7.23986L7.88 3.38986ZM12.5 7.99986H11V13.9999L15.75 16.8499L16.5 15.6199L12.5 13.2499V7.99986ZM12 3.99986C7.03 3.99986 3 8.02986 3 12.9999C3 17.9699 7.02 21.9999 12 21.9999C16.97 21.9999 21 17.9699 21 12.9999C21 8.02986 16.97 3.99986 12 3.99986ZM12 19.9999C8.13 19.9999 5 16.8699 5 12.9999C5 9.12986 8.13 5.99986 12 5.99986C15.87 5.99986 19 9.12986 19 12.9999C19 16.8699 15.87 19.9999 12 19.9999Z" fill="#20484F" />
+            </g>
+            <defs>
+              <clipPath id="clip0_2983_27">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          </div>
+          <h5 class="highly_card_subtitle">Save time when designing</h5>
+          <p class="highly_card_texts">Your new projects are simply a click away with our intuitive creation flow</p>
+        </div>
+        <div class="highly_card">
+          <div class="hour">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_2983_34)">
+            <path d="M16.59 7.58L10 14.17L6.41 10.59L5 12L10 17L18 9L16.59 7.58ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z" fill="#20484F" />
+          </g>
+          <defs>
+            <clipPath id="clip0_2983_34">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+          </div>
+          <h5 class="highly_card_subtitle">Get updated on projects</h5>
+          <p class="highly_card_texts">You receive notifications whenevera team member finishes a task</p>
+        </div>
+        <div class="highly_card">
+          <div class="hour">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_2983_41)">
+              <path d="M1 9H3V7H1V9ZM1 13H3V11H1V13ZM1 5H3V3C1.9 3 1 3.9 1 5ZM9 21H11V19H9V21ZM1 17H3V15H1V17ZM3 21V19H1C1 20.1 1.9 21 3 21ZM21 3H13V9H23V5C23 3.9 22.1 3 21 3ZM21 17H23V15H21V17ZM9 5H11V3H9V5ZM5 21H7V19H5V21ZM5 5H7V3H5V5ZM21 21C22.1 21 23 20.1 23 19H21V21ZM21 13H23V11H21V13ZM13 21H15V19H13V21ZM17 21H19V19H17V21Z" fill="#20484F" />
+            </g>
+            <defs>
+              <clipPath id="clip0_2983_41">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          </div>
+          <h5 class="highly_card_subtitle">Works on the web</h5>
+          <p class="highly_card_texts">Don’t download an application when you can just work in browser</p>
+        </div>
+        <div class="highly_card">
+          <div class="hour">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_2983_48)">
+              <path d="M17.81 4.47C17.73 4.47 17.65 4.45 17.58 4.41C15.66 3.42 14 3 12.01 3C10.03 3 8.14999 3.47 6.43999 4.41C6.19999 4.54 5.89999 4.45 5.75999 4.21C5.62999 3.97 5.71999 3.66 5.95999 3.53C7.81998 2.52 9.85998 2 12.01 2C14.14 2 16 2.47 18.04 3.52C18.29 3.65 18.38 3.95 18.25 4.19C18.16 4.37 17.99 4.47 17.81 4.47ZM3.49998 9.72C3.39998 9.72 3.29999 9.69 3.20999 9.63C2.97999 9.47 2.92998 9.16 3.08998 8.93C4.07998 7.53 5.33999 6.43 6.83999 5.66C9.97999 4.04 14 4.03 17.15 5.65C18.65 6.42 19.91 7.51 20.9 8.9C21.06 9.12 21.01 9.44 20.78 9.6C20.55 9.76 20.24 9.71 20.08 9.48C19.18 8.22 18.04 7.23 16.69 6.54C13.82 5.07 10.15 5.07 7.28999 6.55C5.92999 7.25 4.78999 8.25 3.88999 9.51C3.80999 9.65 3.65998 9.72 3.49998 9.72ZM9.74999 21.79C9.61999 21.79 9.48998 21.74 9.39998 21.64C8.52998 20.77 8.05999 20.21 7.38999 19C6.69999 17.77 6.33999 16.27 6.33999 14.66C6.33999 11.69 8.87998 9.27 12 9.27C15.12 9.27 17.66 11.69 17.66 14.66C17.66 14.94 17.44 15.16 17.16 15.16C16.88 15.16 16.66 14.94 16.66 14.66C16.66 12.24 14.57 10.27 12 10.27C9.42999 10.27 7.33999 12.24 7.33999 14.66C7.33999 16.1 7.65999 17.43 8.26999 18.51C8.90999 19.66 9.34999 20.15 10.12 20.93C10.31 21.13 10.31 21.44 10.12 21.64C10.01 21.74 9.87999 21.79 9.74999 21.79ZM16.92 19.94C15.73 19.94 14.68 19.64 13.82 19.05C12.33 18.04 11.44 16.4 11.44 14.66C11.44 14.38 11.66 14.16 11.94 14.16C12.22 14.16 12.44 14.38 12.44 14.66C12.44 16.07 13.16 17.4 14.38 18.22C15.09 18.7 15.92 18.93 16.92 18.93C17.16 18.93 17.56 18.9 17.96 18.83C18.23 18.78 18.49 18.96 18.54 19.24C18.59 19.51 18.41 19.77 18.13 19.82C17.56 19.93 17.06 19.94 16.92 19.94ZM14.91 22C14.87 22 14.82 21.99 14.78 21.98C13.19 21.54 12.15 20.95 11.06 19.88C9.65999 18.49 8.88999 16.64 8.88999 14.66C8.88999 13.04 10.27 11.72 11.97 11.72C13.67 11.72 15.05 13.04 15.05 14.66C15.05 15.73 15.98 16.6 17.13 16.6C18.28 16.6 19.21 15.73 19.21 14.66C19.21 10.89 15.96 7.83 11.96 7.83C9.11998 7.83 6.51998 9.41 5.34998 11.86C4.95998 12.67 4.75999 13.62 4.75999 14.66C4.75999 15.44 4.82998 16.67 5.42998 18.27C5.52998 18.53 5.39998 18.82 5.13998 18.91C4.87998 19.01 4.58999 18.87 4.49998 18.62C4.00998 17.31 3.76998 16.01 3.76998 14.66C3.76998 13.46 3.99998 12.37 4.44998 11.42C5.77998 8.63 8.72998 6.82 11.96 6.82C16.51 6.82 20.21 10.33 20.21 14.65C20.21 16.27 18.83 17.59 17.13 17.59C15.43 17.59 14.05 16.27 14.05 14.65C14.05 13.58 13.12 12.71 11.97 12.71C10.82 12.71 9.88999 13.58 9.88999 14.65C9.88999 16.36 10.55 17.96 11.76 19.16C12.71 20.1 13.62 20.62 15.03 21.01C15.3 21.08 15.45 21.36 15.38 21.62C15.33 21.85 15.12 22 14.91 22Z" fill="#20484F" />
+            </g>
+            <defs>
+              <clipPath id="clip0_2983_48">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          </div>
+          <h5 class="highly_card_subtitle">Highly secure interface</h5>
+          <p class="highly_card_texts" >Use biometrics, 2FA and more to ensure your security in here</p>
+        </div>
+        
+      </div>
+    </div>
+
+    
+  </section>
+
+  <section class="customer">
+    <div class="wave_divider second_divder">
+    <img src="./assets/media/divider2.webp" alt="wave">
+  </div>
+
+    <div class="container customer_container">
+      <h2 class="customer_title">Our customers keep talking</h2>
+      <p class="customer_desc">Listen to what they say about our product offering right here</p>
+      <button class="customer_btn">Find out more</button>
+
+      <div class="customer_cards  grid">
+        <div class="citates">
+          <svg width="31" class="customer_icon" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.6394 25H29.2535V12.7622H23.9268C24.2178 11.014 24.9746 9.49883 26.1972 8.21678C27.4197 6.93473 29.0207 6.0606 31 5.5944V0C26.5756 0.932399 23.2282 2.91375 20.9577 5.94406C18.7455 8.97436 17.6394 12.8205 17.6394 17.4825V25ZM0 25H11.5268V12.7622H6.2C6.49108 11.014 7.24789 9.49883 8.47042 8.21678C9.69296 6.93473 11.2939 6.0606 13.2732 5.5944V0C8.90704 0.932399 5.58873 2.91375 3.31831 5.94406C1.1061 8.97436 0 12.8205 0 17.4825V25Z" fill="#20484F" />
+        </svg>
+        <p class="worker_citates">I love the flexibility of the product, we’ve been able to integrate with all the other platforms we use in product.</p>
+        <h6 class="authors">Tom Parsons</h6>
+        <p class="authors_pst">VP of Product</p>
+        </div>
+        <div class="citates">
+          <svg width="31" class="customer_icon" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.6394 25H29.2535V12.7622H23.9268C24.2178 11.014 24.9746 9.49883 26.1972 8.21678C27.4197 6.93473 29.0207 6.0606 31 5.5944V0C26.5756 0.932399 23.2282 2.91375 20.9577 5.94406C18.7455 8.97436 17.6394 12.8205 17.6394 17.4825V25ZM0 25H11.5268V12.7622H6.2C6.49108 11.014 7.24789 9.49883 8.47042 8.21678C9.69296 6.93473 11.2939 6.0606 13.2732 5.5944V0C8.90704 0.932399 5.58873 2.91375 3.31831 5.94406C1.1061 8.97436 0 12.8205 0 17.4825V25Z" fill="#20484F" />
+        </svg>
+        <p class="worker_citates">This is the first time that the entire team from design to management has been in love with a tool.</p>
+        <h6 class="authors">Claudia Winkleman</h6>
+        <p class="authors_pst">Product Manager</p>
+        </div>
+        <div class="citates">
+          <svg width="31" class="customer_icon" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.6394 25H29.2535V12.7622H23.9268C24.2178 11.014 24.9746 9.49883 26.1972 8.21678C27.4197 6.93473 29.0207 6.0606 31 5.5944V0C26.5756 0.932399 23.2282 2.91375 20.9577 5.94406C18.7455 8.97436 17.6394 12.8205 17.6394 17.4825V25ZM0 25H11.5268V12.7622H6.2C6.49108 11.014 7.24789 9.49883 8.47042 8.21678C9.69296 6.93473 11.2939 6.0606 13.2732 5.5944V0C8.90704 0.932399 5.58873 2.91375 3.31831 5.94406C1.1061 8.97436 0 12.8205 0 17.4825V25Z" fill="#20484F" />
+        </svg>
+        <p class="worker_citates">Thanks so much to the team at Quickly for building something truly fun to use, and excellently equipt</p>
+        <h6 class="authors">Renata Salvatore</h6>
+        <p class="authors_pst">Director of Design</p>
+        </div>
+      </div>
+    </div>
+   <img src="./assets/media/Decoration.png" class="decor" alt="deco">
+  </section>
+
+  <section class="trial" id="trial">
+    <p class="trial_desc">Stop wasting time, start saving it</p>
+    <h2 class="third_title trial_title">Sign up for your free trial, with the </h2>
+    <h2 class="third_title trial_title second_trip">world’s best product tool</h2>
+    <div class="flex_btn">
+    <button class="trial_btn ">Start your trial</button>
+     </div>
+  </section>
+
 </main>
+
+  <footer class="footer" id="footer">
+                <div class="container footer__container">
+                    <div class="footer__info">
+                        <a href="#" class="footer__logo">
+                        Quickly.
+                        </a>
+                        <p class="footer__address">32  - 44 Upper Rupert Street</p>
+                        <p class="footer__address">W12 8DY Kensington</p>
+                        <p class="footer__address">United Kingdom</p>
+                    </div>
+                    <div class="footer__links">
+                        <div class="footer__columns">
+                        <h4 class="footer__title">Our Company</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#">Our Team</a></li>
+                            <li class="footer__item"><a href="#">Company Vision</a></li>
+                            <li class="footer__item"><a href="#">Our History</a></li>
+                            <li class="footer__item"><a href="#">Investorys</a></li>
+                          
+                        </ul>
+                        </div>
+                              <div class="footer__columns">
+                        <h4 class="footer__title">Our Resources</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#">The Blog</a></li>
+                            <li class="footer__item"><a href="#">Downloads</a></li>
+                            <li class="footer__item"><a href="#">Change Log</a></li>
+                            <li class="footer__item"><a href="#">Slack Channel</a></li>
+                          
+                        </ul>
+                        </div>
+                        <div class="footer__columns">
+                        <h4 class="footer__title">Our Product</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#">New Features</a></li>
+                            <li class="footer__item"><a href="#">Roadmap</a></li>
+                            <li class="footer__item"><a href="#">Product Demo</a></li>
+                            <li class="footer__item"><a href="#">Pricing</a></li>
+                          
+                        </ul>
+                        </div>
+                   
+                    
+                </div>
+                 </div>
+                    <div class="footer__bottom">
+                        <p class="footer__copy">Copyright 2022 Quickly LTD</p>
+                                   </div>
+                               </footer>
 </body>
 </html>

@@ -28,9 +28,7 @@
     background-repeat: no-repeat;
     z-index: -1;
 }
-/* .hero_text {
-    max-width: 520px;
-} */
+
 .hero_desc {
     font-family: var(--font-family);
     font-weight: 400;
