@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="icon" href="./assets/media/Quicly Logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/styles/index.css">
     <link rel="stylesheet" href="./assets/styles/scc/about_us.css">
     <link rel="stylesheet" href="./assets/styles/media_about.css">
@@ -11,7 +12,7 @@
 <body>
     <header class="header" id="header">
       <div class="header_container flex">
-        <a href="./index.html" class="header_logo">Quickly.</a>
+        <a href="./index.html"  class="header_logo">Quickly.</a>
         <nav class="header_nav">
           <ul class="header_menu flex">
             <li class="header_link"><a href="./about_us.html" >About us</a></li>
@@ -21,7 +22,29 @@
             <li class="header_link"><a href="./pricing.html" >Pricing</a></li>
           </ul>
         </nav>
-        <div>
+
+
+        <div class="header_mobile_menu">
+              <!-- БУРГЕР МЕНЮ -->
+            <input type="checkbox" id="burger" hidden>
+            <label class="burger_btn" for="burger">
+              <span class="line"></span>
+            </label>
+             <nav class="burger_menu">
+                <ul class="header_list">
+                  <li class="header_link"><a href="./about_us.html" >About us</a></li>
+                  <li class="header_link"><a href="#" >Products</a></li>
+                  <li class="header_link"><a href="./feature.html" >Features</a></li>
+                  <li class="header_link"><a href="#">Our Blog</a></li>
+                  <li class="header_link"><a href="./pricing.html" >Pricing</a></li>
+                  <li class="header_link"><button class="header_signup_btn"><a href="./sign_up.html" >Sign up</a></button></li>
+                  <li class="header_link"><button class="header_login_btn"><a href="./sign_in.html" >Log In</a></button></li>
+                </ul>
+            </nav>
+            <label for="burger" class="overlay"></label>
+            <!-- overlay- затемнение -->
+          </div>
+        <div class="change_btn">
             <button class="header_signup_btn"><a href="./sign_up.html" >Sign up</a></button>
             <button class="header_login_btn"><a href="./sign_in.html" >Log In</a></button>
         </div>

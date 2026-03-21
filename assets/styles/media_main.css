@@ -1,0 +1,105 @@
+/* HEADER */
+
+
+@media (max-width: 870px) {
+  .header_menu {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 769px) {
+
+ .header{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: var(--dark-green);
+    z-index: 999999;
+
+ }
+
+ .header_container{
+    justify-content: space-between;
+    height: 100%;
+ }
+
+  .header_menu.flex{
+    display: none;
+  }  
+  
+  .change_btn {
+    display: none;
+  }
+  .header_mobile_menu{
+    display: flex;
+  }
+  
+  .header_logo {
+    color: green;
+  }
+
+  .header_login_btn {
+    margin-left: 0;
+    max-width: 120px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--dark-green);
+    border-radius: 8px;
+    padding: 10px 16px;
+    background: var(--light-green);
+    transition: .2s;
+  }
+
+  .header_signup_btn {
+    max-width: 140px; 
+  }
+
+
+  .burger_menu {
+        overflow-y: auto; /* Если пунктов станет больше, их можно будет скроллить */
+        top: 100px; /* Высота твоего хедера в адаптиве */
+    }
+
+    #burger:checked ~ .burger_menu {
+        /* Делаем высоту меню на весь экран за вычетом хедера */
+        height: calc(100vh - 100px); 
+    }
+
+    .burger_btn::before, 
+    .burger_btn > .line, 
+    .burger_btn::after {
+        background-color: var(--white); /* Чтобы бургер было видно на темном фоне */
+    }
+}
+
+
+/* HEADER */
+
+
+/* FOOTER */
+
+
+@media (max-width: 650px) {
+    .footer__container {
+      grid-template-columns: 1.5fr;
+    }
+}
+@media (max-width: 430px) {
+    .footer__links{
+      margin-left: 30px;
+      grid-template-columns: 1fr;
+    }
+
+    .right_now {
+       margin-left: 30px;
+      }
+      .pretty {
+        margin-bottom: 50px;
+        margin-left: 60px;
+
+      }
+}
+
+/* FOOTER */

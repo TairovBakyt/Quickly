@@ -1,0 +1,204 @@
+
+/* SIGN-UP */
+
+.sign-up {
+  justify-content: center;
+  position: relative;
+  background: var(--primary-light); /* твой фон */
+  padding: 134px 20px;
+  overflow: hidden; /* важно чтобы ничего не вылазило */
+
+}
+
+.sign-up::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -90px;
+  width: 256px;
+  height: 394px;
+  background:  url("../../media/decoration3.webp") no-repeat;
+  background-size: contain;
+}
+
+.sign-up::after {
+  content: "";
+  position: absolute;
+  bottom: -120px;
+  right: -70px;
+  width: 256px;
+  height: 394px;
+  background: url("../../media/decoration4.webp") no-repeat;
+  background-size: contain;
+}
+
+.form {
+    border-radius: 12px;
+    width: 590px;
+    box-shadow: 0 2px 40px 0 rgba(189, 189, 189, 0.11);
+    background: var(--white);
+    z-index: 2;
+}
+
+.signin_title {
+    padding-top: 60px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: var(--dark-green);
+}
+
+
+.autorizaton {
+    margin-top: 48px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.autorizaton_form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.name-l {
+    margin-top: 12px;
+}
+
+.text_name {
+    margin-right: 228px;
+}
+
+.autorizaton label {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark);
+}
+
+.autorizaton input:not([type="checkbox"]) {
+    width: 479px;
+    height: 51px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+}
+
+
+.autorizaton input::placeholder {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--border-hover);
+}
+
+
+.signup__checkbox {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--dark);
+    margin: 32px 0;
+}
+
+.autorizaton button {
+    margin-bottom: 24px;
+    border-radius: 8px;
+    width: 479px;
+    height: 58px;
+    background: var(--dark-green);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+
+.signin_desc {
+    padding-bottom: 60px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--dark);
+    text-align: center;
+}
+
+.signin_desc a {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--dark-green);
+}
+
+
+/* контейнер */
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #2c3e3e;
+}
+
+/* скрываем стандартный checkbox */
+.custom-checkbox input {
+  display: none;
+}
+
+/* кастомный квадрат */
+.checkmark {
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  position: relative;
+  transition: 0.2s;
+}
+
+/* состояние checked */
+.custom-checkbox input:checked + .checkmark {
+  background: #1e4d4d;
+}
+
+/* галочка */
+.checkmark::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: 0.2s;
+}
+
+/* показываем галочку */
+.custom-checkbox input:checked + .checkmark::after {
+  opacity: 1;
+}
+
+.forget {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--dark-green);
+}
+
+
+/* SIGN-UP */
+

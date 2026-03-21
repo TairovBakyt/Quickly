@@ -38,7 +38,7 @@
     left: -170px;
     width: 412px;
     height: 233px   ;
-    background: url("../media/span_line.webp") no-repeat;
+    background: url("../../media/span_line.webp") no-repeat;
     background-size: 100% 100%;
     z-index: -1;
 }
@@ -87,6 +87,7 @@
     padding-top: 40px;
 }
 
+
 .hero_assignment__image {
     position: relative;
     padding-top: 125px;
@@ -105,7 +106,7 @@
     right: -70px;
     width: calc(100% + 150px);
     height: calc(100% + 20px);
-    background: url("../media/pircing_background.webp") no-repeat;
+    background: url("../../media/pircing_background.webp") no-repeat;
     background-size: 100% 100%;
     z-index: 0;
     
@@ -415,12 +416,17 @@
 }
 
 .all_project {
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 55px;
+    position: relative;
+    
 }
 
 .dotted_line {
     position: absolute;
+    /* min-width: 1000px;
+    min-height: 1000px; */
     top: 150px;
     left: 200px;
 }
@@ -430,7 +436,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    width: 365px;
+    max-width: 365px;
     height: 500px;
     z-index: -1;
 }
@@ -454,7 +460,7 @@
 
 .title_text {
     margin-bottom: 100px;
-    width: 365px;
+    max-width: 365px;
     height: 92px;
 }
 
@@ -483,13 +489,17 @@
 }
 
 .project_overview_first {
+    position: absolute;
+    top: 0;
+    left: 0;
     padding-top: 17px;
     padding-left: 24px;
     border-radius: 9px;
-    width: 222px;
-    height: 302px;
+    min-width: 222px;
+    /* height: 302px; */
     box-shadow: 0 3px 31px 0 rgba(138, 138, 138, 0.04);
     background: var(--white);
+    z-index: 3;
 }
 .project_overview_title {
     font-family: var(--primary-font);
@@ -513,11 +523,11 @@
 
 .short {
     margin-bottom: 16px;
-    width: 121px;
+    max-width: 121px;
 }
 
 .long {
-    width: 141px;
+    max-width: 141px;
     margin-bottom: 29px;
 }
 
@@ -536,16 +546,17 @@
 }
 
 .step {
-    width: 62px;
+    min-width: 62px;
 }
 
 .step_long {
-    width: 103px;
+    max-width: 103px;
 }
 .overview_btn {
+    margin-bottom: 23px;
     margin-top: 17px;
     border-radius: 6px;
-    width: 178px;
+    min-width: 178px;
     height: 28px;
     background: var(--light-green);
 }
@@ -556,8 +567,8 @@
     top: 185px;
     padding-top: 24px;
     border-radius: 10px;
-    width: 370px;
-    height: 130px;
+    min-width: 370px;
+    /* height: 130px;    */
     box-shadow: 0 2px 42px 0 rgba(189, 189, 189, 0.11);
     background:var(--white);
     z-index: 1;
@@ -567,7 +578,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 29px;
+    max-width: 29px;
     height: 29px;
     border-radius: 100%;
     background: var(--primary-light);
@@ -579,12 +590,13 @@
 }
 .update_long {
     margin-bottom: 11px;
-    width: 230px;
+    min-width: 230px;    
     height: 9px;
 }
 
 .update_short {
-    width: 153px;
+    margin-bottom: 39px;
+    max-width: 153px;
     height: 9px;
 }
 
@@ -597,8 +609,8 @@
     top: 111px;
     left: 76px;
     border-radius: 13px;
-    width: 212px;
-    height: 277px;
+    min-width: 212px;
+    /* height: 277px; */
     box-shadow: 0 2px 41px 0 rgba(189, 189, 189, 0.11);
     background: var(--white);
     z-index: 1;
@@ -609,7 +621,7 @@
     margin-bottom: 37px;
     margin-right: auto;
     margin-left: auto;
-    width: 78px;
+   max-width: 78px;
     height: 78px;
 }
 
@@ -640,14 +652,15 @@
 .master_long {
     margin-bottom: 12px;
     border-radius: 13px;
-    width: 137px;
+    min-width: 137px;
     height: 11px;
     background: var(--border);
 }
 
 .master_short {
+    margin-bottom: 30px;
     border-radius: 13px;
-    width: 85px;
+    min-width: 85px;
     height: 11px;
     background: var(--border);
 }
@@ -683,9 +696,8 @@
 }
 
 .highly_card {
-    
-    width: 266px;
-    height: 172px;
+    max-width: 280px;
+    /* height: 172px; */
 }
 
 .hour {
@@ -707,7 +719,7 @@
 }
 
 .highly_card_texts {
-    max-width: 266px;
+    /* max-width: 320px; */
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
@@ -764,10 +776,10 @@
 }
 
 .citates {
-    
+    z-index: 3;
     border-radius: 24px;
     width: 387px;
-    height: 450px;
+    /* height: 450px; */
     background: var(--white);
 }
 
@@ -776,6 +788,7 @@
 }
 
 .worker_citates {
+    padding-right: 10px;
     margin-left: 44px;
     max-width: 289px;
     font-family: var(--primary-font);
@@ -794,6 +807,7 @@
 }
 
 .authors_pst {
+    /* margin-bottom: 30px; */
     margin-left: 36px;
     margin-top: 8px;
     font-family: var(--primary-font);
