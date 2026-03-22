@@ -48,23 +48,29 @@
 }
 @media (max-width: 430px) {
     .autorizaton input:not([type="checkbox"]) {
-        width: 330px;
+        width: 300px;
+    }
+
+    .autorizaton {
+        padding-left: 40px;
     }
 
     .autorizaton button {
-        width: 330px;
+        width: 300px;
     }
 }
 @media (max-width: 400px) {
     .autorizaton input:not([type="checkbox"]) {
-        width: 250px;
+        width: 270px;
     }
 
+    
+
     .autorizaton button {
-        width: 250px;
+        width: 270px;
     }
 
     .custom-checkbox {
-       max-width: 380px;
+       max-width: 350px;
     }
 }

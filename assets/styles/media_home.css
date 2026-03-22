@@ -274,6 +274,22 @@
   .title_text  {
     margin-bottom: 0px
   }
+
+   .partners_logos {
+        column-gap: 40px;  /* Уменьшаем отступ между логотипами на мобильных */
+    }
+    
+    .logo svg {
+        max-width: 120px;  /* Чуть уменьшаем сами логотипы, чтобы влезали */
+        height: auto;
+    }
+
+    .citates:nth-child(n) {
+        animation: none;
+        opacity: 1;
+        transform: none;
+        z-index: auto;
+    }
 }
 
 
@@ -298,6 +314,25 @@
     .authors_pst {
         margin-bottom: 20px;
     }
+
+    .partners_logos {
+        column-gap: 40px;  /* Уменьшаем отступ между логотипами на мобильных */
+    }
+    
+    .logo svg {
+        max-width: 120px;  /* Чуть уменьшаем сами логотипы, чтобы влезали */
+        height: auto;
+    }
+
+    .customer_btn {
+        position: relative; /* Кнопка уходит из угла в центр */
+        top: 0;
+        right: 0;
+        margin: 20px auto;
+        display: block;
+    }
+    
+
 }
 
 @media (max-width:730px) {
@@ -362,7 +397,7 @@
 
     .container {
         max-width: 350px;
-        padding: 0 10px;
+        padding: 0 10px;    
     } 
     .hero_assignment  {
         display: none ;
@@ -372,10 +407,7 @@
     .hero_content {
         padding-left: 10px;
     } 
-/* 
-    .advantages_post__image {
 
-    } */
 
     .hero_assignment {
         display: inline-block;
@@ -394,11 +426,45 @@
     }
 
     .hero_assignment_notification_top {
-        display: none;
+        position: absolute;
+        top: -5px;
+        right: 20px;;
+        width: 280px;
+        height: 70px;
+    }
+
+    .avatar img{
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero_assignment_title {
+        padding-top: 25px;
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+
+    .hero_assignment_desc {
+        font-size: 12px;
+    }
+
+    .partners_title {
+        padding-top: 50px;
     }
     
     .aloh {
         display: none;
+    }
+
+    .span_line::before {
+        position: absolute;
+        bottom: -30px;
+        left: -110px;
+        width: 250px;
+        height: 130px  
     }
 
     .hero_title{
@@ -411,11 +477,12 @@
 
     .citates {
     margin-bottom: 60px;
-     width: 350px;
+     width: 330px;
     } 
 
     .partners_logos.flex {
-        margin-left: 150px;
+        margin-top: 120px;
+        margin-left: 100px;
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 80px;
@@ -475,7 +542,67 @@
         font-size: 18px;
     }
     .trial_title {
+        padding-left: 10px;
         max-width: 400px;
-        font-size: 26px;
+        font-size: 22px;
+    }
+
+    .advantages_container {
+        margin: 0px;
+    }
+
+    .advantages_post {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 40px;
+    }
+
+
+
+    .all_project {
+        row-gap: 100px;
+    }
+    .project_collumn {
+        width:300px;
+        height: 320px;
+    }
+
+     .project_overview_first {
+        position: absolute;
+        top: -93px;
+        left: -20px;
+        min-width: 200px;  
+    }
+
+    .overview_btn {
+        min-width: 150px;
+    }
+    .step_long {
+        width: 90px;
+    }
+
+    .project_update {
+        position: absolute;
+        top: 80px;
+        left: -30px;
+        width: 210px;
+    }
+
+   
+    .project-master {
+        position: absolute;
+        top: 25px;
+        left: 45px;
+        min-width: 210px;
+    }
+
+
+     .dotted_line  {
+        position: absolute;
+        top: 280px;
+        left: -200px;
+        width: 900px;
+        height: 900px;
+        transform: translateX(-50%) rotate(90deg);
     }
 }
