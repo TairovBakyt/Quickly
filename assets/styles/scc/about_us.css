@@ -103,6 +103,12 @@
     font-size: 18px;
     line-height: 150%;
     color: var(--white);
+    transition: all 0.3s ease;
+}
+.stats_btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+    filter: brightness(1.1);
 }
 .stats_numbers {
     display: grid;
@@ -111,9 +117,16 @@
 }
 
 .stat {
-  display: flex;
-  flex-direction: column;
-  gap:8px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    background: linear-gradient(180deg, var(--white), #479ea2);
+    padding: 20px;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.stat:hover {
+    transform: translateY(-15px); 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1)
 }
 .stat_number {
     font-family: var(--primary-font);
@@ -173,9 +186,16 @@
 }
 .mood_gallery .second_title {
     margin-bottom: 20px;
+    animation: smooth-blink 2s infinite;
 }
 .mood_gallery .page_p {
     font-size: 16px;
+}
+
+@keyframes smooth-blink{
+    0% {  opacity: 1;}
+    50% { opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .mood_img {
@@ -184,7 +204,7 @@
     justify-content: center;
     align-items:flex-start;
     gap: 60px;
-    min-height:600px ;
+    min-height:800px ;
 }
 .mood_img::after {
     content: '';
@@ -222,6 +242,19 @@
 }
 .team_head {
     margin-bottom: 68px;
+    animation: team_head 3s ease-in-out infinite;
+    display: inline-block;
+}
+@keyframes team_head {
+  0% {
+    transform: translateY(0px); 
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+  100% {
+    transform: translateY(0px); 
+  }
 }
 .team_grid {
     display: grid;
@@ -233,8 +266,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    background-color: transparent; 
+    transition: all 0.2s ease;
+    border-radius: 12px;
+    background-color: #5f484838;
+    box-shadow: 0 10px 30px rgba(105, 104, 104, 0.05); 
+   
 }
+
 
 .team_photo {
     border-radius: 200px;
@@ -277,7 +317,12 @@
     font-size: 18px;
     line-height: 150%;
     color: var(--white);
-   
+    transition: all 0.3s ease;
+}
+.team_btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+    filter: brightness(1.1);
 }
 
 .team_contain {
@@ -318,6 +363,9 @@
 }
 .quotes_desc {
     margin: 48px 0 66px 0;
+}
+.quotes_desc .third_title {
+    animation: smooth-blink 4s infinite;
 }
 .quotes_card {
     display: flex;
@@ -375,7 +423,12 @@
     font-size: 18px;
     line-height: 150%;
     color: var(--dark);
-
+    transition: all 0.3s ease;
+}
+.quot_btn:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+    filter: brightness(1.1);
 }
 
 .decor {
