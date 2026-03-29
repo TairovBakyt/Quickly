@@ -3,6 +3,7 @@
         display: flex;
         justify-content: center;
         gap:15px;
+        min-height:800px ;
     }
     .img-1 {
         transform: rotate(-8deg) ;
@@ -28,6 +29,30 @@
         transform: rotate(-9deg) translateY(300px) translateX(-100px);
     }
 }
+@media(min-width:1201px) {
+    .gallery {
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.5s ease, z-index 0s;
+    position: relative;
+    will-change: transform;
+}
+    .gallery:hover {
+    transform: rotate(0deg) translate(0, 0) scale(1.1) !important; 
+    z-index: 999 !important; 
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+    .mood_img:hover .gallery {
+    opacity: 0.6;
+    filter: blur(1px);
+}
+
+    .mood_img:hover .gallery:hover {
+    opacity: 1;
+    filter: blur(0);
+}
+}
+
 @media(max-width:1230px) {
     .stats_content {
         gap:50px;
