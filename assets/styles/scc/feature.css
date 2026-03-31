@@ -3,7 +3,6 @@
     padding: 120px 0 0px 0;
    background-color: rgb(249, 246, 246); 
   }
-  
   .pricing__hero__title{
    margin-bottom: 55px;
     font-weight: 700;
@@ -59,10 +58,30 @@ margin-right: 101px;
 /* left: 133px; */
 /* right: 761px; */
 /* top: 105px; */
-    
+    animation: game 3s ease-in-out infinite;
+    transform-style: preserve-3d;
+}
+@keyframes game {
+
+0% {
+    transform: translateY(0px) rotateY(0deg);
+}
+25% {
+    transform: translateY(-5px) rotateY(1deg);
+}
+50% {
+    transform: translateY(0px) rotateY(0deg);
+}
+75% {
+    transform: translateY(5px) rotateY(-1deg);
+}
+100% {
+    transform: translateY(0px) rotateY(0deg);
+}
 }
 
 .left-side > .top-box{
+
 
 width: 264px;
 height: 94px;
@@ -571,6 +590,22 @@ padding-top: 12px;
     
     width: 266px;
     height: 172px;
+    transition: 0.3s;
+   
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+    transform: translateY(0px);
+}
+
+    50% {
+    transform: translateY(-8px);
+}
+    100% {
+    transform: translateY(0px);
+
+}
 }
 
 .hour {
@@ -627,9 +662,9 @@ padding-top: 12px;
     max-width: 480px; 
     padding: 80px 0;
 }
-/* .promo__container .second_title {
+.promo__container .second_title {
     margin-bottom: 23px;
-} */
+}
 .feat_desc {
     font-family: var(--primary-font);
     font-weight: 400;
