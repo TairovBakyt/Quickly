@@ -149,6 +149,10 @@
 
  }
  @media (max-width: 420px){
+
+    .pricing__hero__desc {
+        margin-top: 0px;
+    }
     .features__category{
         grid-template-columns: 2.2fr 1fr 1fr 1fr;
         column-gap: 10px;

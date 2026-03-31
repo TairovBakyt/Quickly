@@ -47,6 +47,9 @@
     }
 }
 @media (max-width: 430px) {
+    .form {
+        margin-top: 0px;
+    }
     .autorizaton input:not([type="checkbox"]) {
         width: 300px;
     }

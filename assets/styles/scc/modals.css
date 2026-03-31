@@ -33,6 +33,7 @@
 }
 
 .form {
+    margin-top: 80px;
     border-radius: 12px;
     width: 590px;
     box-shadow: 0 2px 40px 0 rgba(189, 189, 189, 0.11);
