@@ -224,6 +224,10 @@
     }
 }
 @media(max-width:450px) {
+
+    .hero_contain {
+        margin-top: 0px;
+    }
     .quotes_desc .third_title {
         font-size: 30px;
     }
