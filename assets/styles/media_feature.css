@@ -1,3 +1,4 @@
+
 @media (max-width: 1235px) {
     .promo__right  {
         position: relative;
@@ -724,9 +725,9 @@ margin-bottom: 155px;
 
 }
 
-@media(max-width:420px) {
+@media (max-width: 420px) {
     .pricing__hero__desc {
-        padding-top: 0px;
+        margin-top: 0px;
     }
 }
 

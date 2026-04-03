@@ -31,6 +31,7 @@
   }
 
   .pricing__hero__desc{
+   margin-top: 80px;
     font-weight: 700;
     font-size: 16px;
     text-align: center;
@@ -66,6 +67,7 @@
     width: 100%;
    
  }
+   
  .card{
     border: 1px solid var(--border-hover);
     border-radius: 8px;
@@ -73,7 +75,37 @@
     max-width: 300px;
     height: 700px;
     margin: 0 auto;
+    filter: blur(2px);
+    opacity: 0.7;
+    background-color: rgba(240, 240, 240, 0.8);
+    transition: all 0.4s ease;
+    
  }
+
+  .card:hover{
+   background-color: var(--dark-green);
+   color: var(--white);
+   cursor: pointer;
+    transition: 0.3s;
+ }
+   .card:hover h4,
+   .card:hover h3,
+   .card:hover p,
+   .card:hover button,
+   .card:hover li{
+      color: var(--white);
+   }
+
+   .card:hover .list__item::before{
+      color: var(--white);
+   }
+
+   .card:active{
+      background-color: var(--dark-green);
+      color: var(--white);
+      transition: 0.1s;
+   }
+
  .card__content{
     margin-left: auto;
     margin-right: auto;
@@ -82,10 +114,11 @@
  .card__name{
     font-weight: 700;
     font-size: 18px;
-    color: var(--primary-green);
+    color: var(--light-green);
  }
  .card__price{
     margin-top: 30px;
+    margin-left: 20px;
     font-weight: 700;
     font-size: 32px;
     color: var(--dark-green);
@@ -127,9 +160,11 @@
     cursor: pointer;
     transition: 0.3s;
  }
+
+
  .card__btn:hover{
-  background-color: var(--white);
-  color: var(--dark-green);
+  background-color: var(--light-green);
+  color: var(--white);
  }
   .popular{
     position: relative;
@@ -171,14 +206,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-     background: var(--primary-green);
+     background: var(--light-green);
     color: black;
     font-size: 8px;
     border-radius: 6px;  
 
  }
  
- .dark{
+ /* .dark{
     background: var(--dark-green);
  }
  .dark h4{
@@ -191,12 +226,12 @@
     color: var(--white);
  }
  .dark button{
-    background: var(--primary-green);
+    background: var(--light-green);
     color: var(--dark);
 }
 .dark li{
   color: var(--white);
-}
+} */
 
 
 /* Cards */
@@ -330,11 +365,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 120px;
+    padding: 50px;
     background: var(--white);
 }
 .cta__subtitle{
-   padding-top: 68px;
+   /* padding-top: 68px; */
     font-weight: 700;
     font-size: 18px;
     color: var(--dark-green);
