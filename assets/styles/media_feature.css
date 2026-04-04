@@ -31,6 +31,10 @@
         display: none;
     }
 
+    .feat_line {
+        display: none;
+    }
+
 }
 
 
@@ -275,10 +279,10 @@ margin-bottom: 155px;
 }.left-side .bottom-box {
     margin-right: -155px;
  }
-  .mockup_wrapper {
+  /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 .left-side .bottom-box {
     margin-right: -155px;
  }
@@ -287,10 +291,10 @@ margin-bottom: 155px;
 
 @media (max-width:1015px) {
 
-     .mockup_wrapper {
+     /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 .left-side .bottom-box {
     margin-right: -155px;
  }
@@ -309,10 +313,10 @@ margin-bottom: 155px;
 
 @media (max-width:1011px) {
 
-      .mockup_wrapper {
+      /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 
  .right-side-box > .right-side-stick .right-side-stick-subtitle {
         max-width: 275px;
@@ -332,10 +336,10 @@ margin-bottom: 155px;
 }
 
 @media (max-width:1006px) {
-      .mockup_wrapper {
+      /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 
 
 .right-side {
@@ -382,10 +386,10 @@ margin-bottom: 155px;
 }
 
 @media (max-width:995px) {
-      .mockup_wrapper {
+      /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 
 .left-side .bottom-box {
     margin-right: -155px;
@@ -393,10 +397,10 @@ margin-bottom: 155px;
 }
 
 @media (max-width:975px) {
-  .mockup_wrapper {
+  /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 .left-side .bottom-box {
     margin-right: -155px;
  }
@@ -406,10 +410,10 @@ margin-bottom: 155px;
 
 @media(max-width:960px) {
 
-   .mockup_wrapper {
+   /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 
 
     
@@ -474,10 +478,10 @@ margin-bottom: 155px;
     margin-right: -155px;
  }
 
-  .mockup_wrapper {
+  /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 
 
 }
@@ -486,10 +490,10 @@ margin-bottom: 155px;
 @media (max-width:915px) {
 
 
-  .mockup_wrapper {
+  /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 
 
 }
@@ -525,10 +529,10 @@ margin-bottom: 155px;
 
 
 @media (max-width:825px) {
-    .mockup_wrapper {
+    /* .mockup_wrapper {
 
         display: none;
-    }
+    } */
 
     .promo__right img {
         max-width:825px;
