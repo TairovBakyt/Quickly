@@ -122,6 +122,17 @@
     color: var(--white);
 }
 
+.autorizaton button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(31, 77, 79, 0.3);
+    background: #256366;
+}
+
+.autorizaton button:active {
+    background-color: orange;
+    transform:  scale(0.97);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
 
 .signin_desc {
     padding-bottom: 60px;
