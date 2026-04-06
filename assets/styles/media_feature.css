@@ -733,9 +733,11 @@ margin-bottom: 155px;
     .pricing__hero__desc {
         margin-top: 0px;
     }
-    /* .feature_btn{
-        min-width: auto;
-    } */
+
+    .feature_btn {
+        min-width:auto;
+    }
+
 }
 
 @media(max-width:400px) {
